@@ -3,116 +3,306 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.view-link{
-  font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    margin: 160px;
-    line-height: normal;
-    border-radius: 4px;
-    text-decoration: none;
-    text-transform: capitalize;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-    padding: 20px 15px;
-}
-.project-final h2{
-  color: #000;
-font-family: Playfair Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin: -20px;
-}
-.project-final{
-  margin: 127px 67px 5px 127px;
-}
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+
+h1,
+h2,
+h3 {
   text-align: center;
+  margin: 0;
+}
+
+p {
+  background: none;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272142;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  position: relative;
+}
+.col-md-5 {
+  width: 43%;
+}
+.contact-link {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.contact-link:hover {
+  color: black;
   text-decoration: none;
 }
 
+.about-link {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
 
+.about-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+}
+.navbar-brand {
+  width: 150px;
+  height: 41.817px;
+  font-size: 26px;
+  font-family: Playfair Display;
+  margin: 40px 0px 0px 165px;
+}
+.navbar-collapse {
+  margin: 40px 0px 0px 500px;
+}
+
+.navigation-links {
+  display: flex;
+  padding: 18px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fixed-top {
+  position: fixed;
+  top: 40px;
+  right: 1125px;
+  left: 165px;
+}
+.fixed {
+  width: 341px;
+  height: 24px;
+  color: #6c63ff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: fixed;
+  top: 51px;
+  right: 180px;
+  left: 900px;
+}
+.hero {
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 160px 20px;
+}
+.hero h1 {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero h2 {
+  color: #272142;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.hero h3 {
+  color: #272142;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.project-description h2 {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.project-description p {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.view-link {
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  margin: 160px;
+  line-height: normal;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 15px;
+}
+.project-final h2 {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: -20px;
+}
+
+<<<<<<< HEAD
+/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
 
+/* Set a specific color for each brand */
 
+/* Facebook */
 .fa-facebook {
-  color: #3B5998;
+  color: #3b5998;
 }
 
 .fa-linkedin {
-  color: #3B5998;
+  color: #3b5998;
 }
 .fa-instagram {
-  color: #3B5998;
+  color: #3b5998;
 }
-.social-icon{
-  margin: 2px 5px 28px 300px;
-}
-.content h1{
+.content h1 {
   color: #000;
-font-family: Playfair Display;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 200px 0px 2px 0px;
 }
-.content h3{
+.content h3 {
   color: #272142;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.content p{
-  color: rgba(39, 33, 66, 0.70);
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
-.watch-link{
   font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 100;
-    line-height: normal;
-    border-radius: 4px;
-    padding: 15px 30px;
-    text-decoration: none;
-    text-transform: capitalize;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 0px 2px 0px;
 }
-.description h2{
-color: #000;
-font-family: Playfair Display;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin: 250px 600px 250px 144px;
-}
-.content-container {
-    padding: 160px 20px;
-}
-.content{
+.content p {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
   margin: 30px;
 }
-
-@media (max-width:600px) {
-  .responsive{
-    width: 100%;
-    height: auto;
-  }
+.watch-link {
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 230px;
+}
+.img-party {
+  max-width: 50%;
+  margin: 200px 90px;
+}
+.description h2 {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 250px 600px 250px 144px;
+}
+footer {
+  margin: 60px 0;
+  text-align: center;
+}
+footer.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+}
+.social-links a {
+  margin: 0 20px;
+  color: black;
+  padding: 10px 14px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
 }
